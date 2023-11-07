@@ -31,7 +31,11 @@ export default function Header() {
                     </div>
                 </div>
 
-                <div></div>
+                <div className='flex justify-center py-20'>
+                    <span className='bg-white w-14 h-2 rounded-l-md cursor-pointer'></span>
+                    <span className='bg-white w-14 opacity-50 h-2 rounded-r-md cursor-pointer'></span>
+                    
+                </div>
             </div>
         </div>
     )

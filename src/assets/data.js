@@ -30,8 +30,8 @@ import logo5 from '../assets/logos/hm.png';
 // feedback images
 
 import feedbackImg1 from '../assets/pics/profil1.png';
-import feedbackImg2 from '../assets/pics/profil2.png';
-import feedbackImg3 from '../assets/pics/profil3.png';
+// import feedbackImg2 from '../assets/pics/profil2.png';
+// import feedbackImg3 from '../assets/pics/profil3.png';
 
 
 
@@ -192,7 +192,7 @@ const footerLinks = [
     }, {
         title: 'Location',
         url: '',
-        text: ['Support@euphoria.in ', 'Eklingpura Chouraha, Ahmedabad Main Road ', 'NH 8- Near Mahadev Hotel Udaipur, india- 313002 ']
+        text: ['Oscarkanangila01@gmail.com', '69 Avenue Du conservateur ', 'Lubumbashi RD Congo']
     }
 ];
 
@@ -201,23 +201,26 @@ const feedback = [
     {
         id: 1,
         image: feedbackImg1,
+        userName:'Oscar Kng',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        startNumer: 4
+        start: 4
     },
     {
         id: 2,
-        image: feedbackImg2,
+        image: feedbackImg1,
+        userName:'Oscar Kng',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        startNumer: 4
+        start: 4
     },
     {
         id: 3,
-        image: feedbackImg3,
+        image: feedbackImg1,
+        userName:'Oscar Kng',
         content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
-        startNumer: 4
+        start: 4
     }
 ];
 
 
 
-export { adsImages, cardInfo, productInfo, bannerImage, MenCategoriesImages, logoImages, footerLinks, feedback };
+export { adsImages, cardInfo, productInfo, bannerImage, MenCategoriesImages, logoImages, footerLinks,feedback };
